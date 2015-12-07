@@ -1,0 +1,17 @@
+#!/bin/sh
+
+cat <<EOF
+{
+  "type": "issue",
+  "check_name":  "Bug Risk/Unused Variable",
+  "description": "Unused local variable foo",
+  "categories":  ["Complexity", "Style"],
+  "location": {
+    "path": "test.rb",
+    "lines": {
+      "begin": 13,
+      "end":   14
+    }
+  }
+}
+EOF

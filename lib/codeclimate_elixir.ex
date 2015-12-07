@@ -1,0 +1,2 @@
+defmodule CodeclimateElixir do
+end
