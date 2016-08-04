@@ -1,14 +1,8 @@
 # codeclimate-elixir
 
-Code Climate Engine for [Elixir](http://elixir-lang.org/).
+This repo is deprecated. It was a bad idea to make a single engine for elixir. I decided to split things. Please check:
 
-## Tools included:
- - [dogma](https://github.com/lpil/dogma)
- - [credo](https://github.com/rrrene/credo)
+ - [Code Climate Credo Engine](https://github.com/fazibear/codeclimate-credo)
+ - [Code Climate Dogma Engine](https://github.com/fazibear/codeclimate-dogma)
 
-## TODO
- - tests
- - disable/enable dogma
- - disable/enable credo
- - dogma configuration
- - credo configuration
+In the future this engine will check your code using elixir compiler. Stay tuned.
